@@ -4,7 +4,7 @@
   padding: 40px 20px 20px;
   
   background: var(--Primary-color, #193028);
-height: 65vh;
+height: 60vh;
 align-self: stretch;
 width: 100%;
 }
@@ -120,7 +120,7 @@ line-height: normal;
 /* 📱 Responsive: 321px – 500px */
 @media (min-width: 321px) and (max-width: 500px) {
   .footer {
-    padding: 6vh 0vw;
+    padding: 0vh 0vw;
     height: auto; /* let height adjust to content */
   }
 

@@ -3,7 +3,7 @@
   padding: 50px 0px;
   background: #fff;
   width: 100%;
-
+  ma
 }
 
 .heading {
@@ -72,11 +72,8 @@ align-items: center;
 gap: 2vh;
 flex-shrink: 0; 
 
+}
 
-}
-.mapContainer{
-  margin-top: 5vh;
-}
 .cardLoc{
 width: 3vw;
 height: 6vh;
@@ -136,9 +133,6 @@ line-height: normal;
     border: 1px solid #CE9F0B;
     top: 3vh;
   }
-  .mapContainer{
-  margin-top: 5vh;
-}
 
   .infoBlock {
     gap: 3vh;

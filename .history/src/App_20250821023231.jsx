@@ -27,7 +27,6 @@ import Home from './Home'
 import About from './Components/About'
 import SpecialsPage from './Components/Specials'
 import Contact from './Components/Contact'
-import Menu from './Components/Menu'
 
 
 function App() {
@@ -38,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
-        <Route path="/menu" element={<Menu/>}/>
+        <Route path="/menu" element={<me />
         <Route path="/specialties" element={<SpecialsPage/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>

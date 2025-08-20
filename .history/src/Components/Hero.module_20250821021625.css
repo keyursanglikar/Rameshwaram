@@ -119,11 +119,10 @@ line-height: normal;
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 
 .hero-container {
-  width: 100%;
+  width: 100vw;
   height: 90%;
   overflow: hidden;
   position: relative;
-  
 }
 
 .hero-slider {

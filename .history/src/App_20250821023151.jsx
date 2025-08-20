@@ -25,9 +25,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Home'
 import About from './Components/About'
-import SpecialsPage from './Components/Specials'
-import Contact from './Components/Contact'
-import Menu from './Components/Menu'
 
 
 function App() {
@@ -37,10 +34,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/menu" element={<Menu/>}/>
-        <Route path="/specialties" element={<SpecialsPage/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/about" element={<About} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/specialties" element={<SpecialtiesPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   )

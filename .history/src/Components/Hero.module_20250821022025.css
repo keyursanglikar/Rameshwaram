@@ -123,12 +123,11 @@ line-height: normal;
   height: 90%;
   overflow: hidden;
   position: relative;
-  
 }
 
 .hero-slider {
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 

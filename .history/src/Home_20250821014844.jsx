@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Hero from './Components/Hero'
-import Navbar from './Components/Navbar'
+import navbar from './components/Navbar'
 import About from './Components/About'
 import Menu from './Components/Menu'
 import Culinary from './Components/Culinary'
@@ -17,7 +17,7 @@ import Footer from './Components/Footer'
 const Home = () => {
   return (
     <div>
-     <Navbar/>
+     <navbar/>
      <Hero/>
      <About/>
      <Menu/>

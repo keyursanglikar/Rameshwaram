@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 4.0vw;
+
+
+
+}
+
+.section {
+  text-align: center;
+  background: #fff;
+  border: 2px solid black;
+}
+
+.subheading{
+color: var(--Grey, #7F7F7F);
+text-align: center;
+font-family: Montaga;
+font-size: 2.0vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1vh;
+}
+
+.heading {
+margin-bottom: 40px;
+color: var(--Primary-color, #193028);
+font-family: Garamond;
+font-size: 3.0vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0.5vh;
+margin-bottom: 1vh; 
+}
+
+.headDe{
+width:12vw;
+
+
+}
+
+/* .bigImage {
+  flex: 2;
+
+} */
+
+.bigImage img {
+  width: 27vw;
+  height: 60vh;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.rightSection {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.thumbnails {
+  display: flex;
+  justify-content:space-around ;
+  
+
+}
+
+.thumb {
+ 
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+ 
+  width: 15vw;
+height: 35vh;
+}
+
+/* .thumb:hover,
+.active {
+  
+  
+} */
+
+.textContent {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.subtitle {
+margin-bottom: 2px;
+color: var(--Secondary-color, #CE9F0B);
+text-align: center;
+font-family: Montaga;
+font-size: 2.0vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.description {
+color: #000;
+text-align: center;
+font-family: Montaga;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

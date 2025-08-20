@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.container{
+    height: 12vh;
+    width: 100%;
+    border-bottom: 2px solid var(--Secondary-color, #CE9F0B);
+    background: var(--Primary-color, #193028);
+    padding: 0 0px;
+    position: relative; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+ 
+
+
+.navbar-grid{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    align-items: center;
+    gap: 45vw;
+    padding: 30px 0;
+    width:100%;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+}
+
+nav ul li a{
+
+color: #FFFFFF;
+    font-family: Montaga;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color:#CE9F0B;
+}
+
+.contactBtn {
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.contact-btn a:hover {
+  background-color: white;
+  color: #152e26;
+}
+ 
+
+ 
+  */
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.container {
+  height: 12vh;
+  width: 100%;
+  border-bottom: 2px solid var(--Secondary-color, #CE9F0B);
+  background: var(--Primary-color, #193028);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  font-family: Montaga;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 6px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #CE9F0B;
+}
+
+.contactBtn {
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  background-color: white;
+  color: #152e26;
+}
+
+/* ---------------- MOBILE STYLING ---------------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Mobile menu hidden */
+.navLinks {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+    .container{
+        position: relative;
+        width: 100%;
+    }
+  .navLinks {
+    display: none;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    background: var(--Primary-color, #193028);
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 20px 0;
+  }
+
+  .navActive {
+    display: flex;
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Animate hamburger when active */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+}

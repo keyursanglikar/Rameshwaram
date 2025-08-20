@@ -1,0 +1,223 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.container{
+    height: 12vh;
+    width: 100vw;
+    border-bottom: 2px solid var(--Secondary-color, #CE9F0B);
+    background: var(--Primary-color, #193028);
+    padding: 0 0px;
+    position: relative; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+ 
+
+
+.navbar-grid{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    align-items: center;
+    gap: 45vw;
+    padding: 30px 0;
+    width:100%;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+}
+
+nav ul li a{
+
+color: #FFFFFF;
+    font-family: Montaga;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color:#CE9F0B;
+}
+
+.contactBtn {
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.contact-btn a:hover {
+  background-color: white;
+  color: #152e26;
+}
+ 
+
+ 
+  */
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.container {
+  height: clamp(8vh, 12vh, 14vh);
+  width: 100%;
+  border-bottom: 0.2vh solid var(--Secondary-color, #CE9F0B);
+  background: var(--Primary-color, #193028);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(2vw, 6vw, 70px);
+}
+
+.logo img {
+  height: clamp(35px, 6vh, 50px);
+  width: auto;
+}
+
+/* Grid layout for desktop */
+.navbar-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  gap: clamp(20vw, 45vw, 50vw);
+  width: 100%;
+  padding: clamp(1vh, 2vh, 3vh) 0;
+}
+
+/* Navbar Menu */
+.navMenu {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(2vw, 3vw, 4vw);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  font-family: Montaga;
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5vw;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #CE9F0B;
+}
+
+/* Contact Button */
+.contactBtn {
+  border: 1px solid white;
+  padding: clamp(6px, 1vh, 10px) clamp(10px, 2vw, 16px);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: white;
+  color: #152e26;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.5vh;
+  margin-right: clamp(4vw, 6vw, 8vw);
+}
+
+.bar {
+  width: clamp(20px, 6vw, 30px);
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* ---------- Responsive: 321px – 500px ---------- */
+@media (max-width: 500px) {
+  .navbar-grid {
+    grid-template-columns: 1fr auto;
+    width: 100vw;
+    gap: 0;
+    /* padding: clamp(1vh, 2vh, 3vh) clamp(4vw, 5vw, 6vw); */
+  }
+
+  nav ul {
+    flex-direction: column;
+    background-color: #193028;
+    position: absolute;
+    top: 12vh; /* below navbar */
+    left: 0;
+    width: 100%;
+    padding: 5vh 0;
+    gap: 4vh;
+    display: none; /* hidden by default */
+  }
+
+  .navMenu.active ul {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

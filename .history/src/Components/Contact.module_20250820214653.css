@@ -1,0 +1,102 @@
+.contactSection {
+  text-align: center;
+  padding: 50px 0px;
+  background: #fff;
+}
+
+.heading {
+  margin-bottom: 1vh;
+  color: var(--Primary-color, #193028);
+text-align: center;
+font-family: Garamond;
+font-size: 5.5vh;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.headDes{
+width:12vw;
+margin-bottom:5vh;
+
+}
+
+/* Green Box */
+.card {
+  background: #0f2f22;
+  color: white;
+  padding: 30px 20px;
+  /* max-width: 350px; */
+  margin: 0 auto;
+  
+  position: relative;
+width: 33vw;
+height:60vh;
+padding: 40px;
+align-items: center;
+gap: 10px;
+}
+
+/* Top decoration */
+.cardTopDecoration {
+  position: absolute;
+  top: 29px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 60px;
+  height: 2px; */
+  
+  width: 33vw;
+height: 63vh;
+flex-shrink: 0;
+border: 1px solid #CE9F0B;
+}
+
+.cardDes{
+    width: 170.999px;
+height: 43px;
+}
+
+
+/* Info blocks */
+.infoBlock {
+ margin: 0 auto
+
+  display: flex;
+width: 412px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-shrink: 0; 
+
+}
+
+.cardLoc{
+width: 3vw;
+height: 6vh;
+flex-shrink: 0;
+}
+
+.cardCall{
+width: 3vw;
+height: 6vh;
+flex-shrink: 0;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #c7a34c;
+  margin-bottom: 10px;
+ 
+}
+
+.text {
+color: #FFF;
+text-align: center;
+font-family: Montaga;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

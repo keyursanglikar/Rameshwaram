@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    padding: 0%;
+width: 100%idth: 321px) and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    width: 100%;
+
+  }
+}

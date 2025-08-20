@@ -1,0 +1,370 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.container{
+    height: 12vh;
+    width: 100vw;
+    border-bottom: 2px solid var(--Secondary-color, #CE9F0B);
+    background: var(--Primary-color, #193028);
+    padding: 0 0px;
+    position: relative; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+ 
+
+
+.navbar-grid{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    align-items: center;
+    gap: 45vw;
+    padding: 30px 0;
+    width:100%;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+}
+
+nav ul li a{
+
+color: #FFFFFF;
+    font-family: Montaga;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color:#CE9F0B;
+}
+
+.contactBtn {
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.contact-btn a:hover {
+  background-color: white;
+  color: #152e26;
+}
+ */
+
+
+/* 
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  height: 12vh;
+  width: 100%;
+  border-bottom: 0.2vh solid var(--Secondary-color, #CE9F0B);
+  background: var(--Primary-color, #193028);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(4vw, 7vw, 10vw);
+}
+
+.logoImage {
+  height: clamp(8vh, 5vh, 6vh);
+  width: auto;
+}
+
+.navbar-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  gap: 45vw;
+  padding: 3vh 0;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li a {
+  color: #FFFFFF;
+  font-family: Montaga;
+  font-size: clamp(3vh, 3.8vh, 2vh);
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5vw 0.5vw;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #CE9F0B;
+}
+
+.contactBtn {
+  border: 0.1vh solid white;
+  padding: 1vh 1.6vw;
+  border-radius: 0.4vh;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  gap: 1vh;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  background-color: white;
+  color: #152e26;
+}
+
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 8vw;
+  height: 8vw;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  margin-right: 5vw;
+}
+
+.menuToggle span {
+  width: 100%;
+  height: 0.5vh;
+  background: white;
+  border-radius: 0.5vh;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: center;
+}
+ */
+
+
+
+ /* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  height: clamp(10vh, 12vh, 14vh);
+  width: 100%;
+  border-bottom: clamp(0.1vh, 0.2vh, 0.3vh) solid var(--Secondary-color, #CE9F0B);
+  background: var(--Primary-color, #193028);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(4vw, 7vw, 10vw);
+}
+
+.logoImage {
+  height: clamp(5vh, 8vh, 10vh);
+  width: auto;
+}
+
+.navbar-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  gap: clamp(40vw, 45vw, 50vw);
+
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(1vw, 2vw, 3vw);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li a {
+  color: #FFFFFF;
+  font-family: Montaga;
+  font-size: clamp(1.8vh, 2.5vh, 4vh);
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: clamp(0.3vw, 0.5vw, 0.7vw) clamp(0.3vw, 0.5vw, 0.7vw);
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #CE9F0B;
+}
+
+.contactBtn {
+  border: clamp(0.08vh, 0.1vh, 0.12vh) solid white;
+  padding: clamp(0.8vh, 1vh, 1.2vh) clamp(1.2vw, 1.6vw, 2vw);
+  border-radius: clamp(0.3vh, 0.4vh, 0.5vh);
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  gap: clamp(0.8vh, 1vh, 1.2vh);
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  background-color: white;
+  color: #152e26;
+}
+
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: clamp(3.5vw, 4vw, 10vw);
+  height: clamp(4vw, 4.5vw, 10vw);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+  margin-right: clamp(3vw, 5vw, 7vw);
+}
+
+.menuToggle span {
+  width: 100%;
+  height: clamp(0.4vh, 0.5vh, 0.6vh);
+  background: white;
+  border-radius: clamp(0.3vh, 0.5vh, 0.7vh);
+  transition: all 0.3s linear;
+  transform-origin: center;
+}
+
+/* 
+@media (max-width: 768px) {
+  .navbar-grid {
+    grid-template-columns: 1fr auto;
+    gap: 0;
+  }
+  .container{
+    width: 100vw;
+  }
+  
+  .nav {
+    position: fixed;
+    top: clamp(10vh, 12vh, 14vh);
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - clamp(10vh, 12vh, 14vh));
+    background: var(--Primary-color, #193028);
+    transition: left 0.3s ease;
+    z-index: 999;
+  }
+  
+  .navOpen {
+    left: 0;
+  }
+  
+  .nav ul {
+    flex-direction: column;
+    gap: clamp(2vh, 3vh, 4vh);
+    padding: clamp(5vh, 8vh, 10vh) 0 0 0;
+    height: 100%;
+  }
+  
+  .nav ul li a {
+    font-size: clamp(2.2vh, 2.5vh, 2.8vh);
+    padding: clamp(1.5vh, 2vh, 2.5vh) clamp(3vw, 4vw, 5vw);
+  }
+  
+  .contactBtn {
+    padding: clamp(1.5vh, 2vh, 2.5vh) clamp(4vw, 5vw, 6vw);
+    font-size: clamp(2.2vh, 2.5vh, 2.8vh);
+  }
+  
+  .menuToggle {
+    display: flex;
+
+  }
+  
+
+  .menuToggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(clamp(0.5vw, 0.7vw, 1vw), clamp(0.5vw, 0.7vw, 1vw));
+  }
+  
+  .menuToggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menuToggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(clamp(0.5vw, 0.7vw, 1vw), clamp(-0.5vw, -0.7vw, -1vw));
+  }
+}
+
+ */

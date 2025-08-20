@@ -1,0 +1,295 @@
+/* .Special-Container{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(25, 48, 40, 1);
+    color: white;
+}
+
+.special-heading{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+text-align: center;
+font-family: Montaga;
+font-size: 1.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.special-heading h1{
+color: #FFF;
+font-family: Garamond;
+font-size: 3.5vh;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.headDesign {
+  display: block;
+  margin: 0.3rem auto 2rem auto; 
+  width: 180px;
+  height: auto;
+}
+
+.menuContainer {
+  background-color: #0d2a23;
+  color: white;
+  font-family: 'Georgia', serif;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 20px;
+}
+
+.navItem {
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+}
+
+.active {
+  color: gold;
+  border-bottom: 2px solid gold;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.textSection {
+  width: 100%;
+  padding: 20px;
+}
+
+.dishName {
+  color: goldenrod;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.imageSection {
+  width: 80%;
+  height: 600px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.imageScroller {
+  display: flex;
+  flex-direction: column;
+  transition: transform 1s ease-in-out;
+  height: 100vh;
+  animation: scrollUp 15s linear infinite;
+}
+
+.dishImage {
+  width: 35%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 250px;
+  margin-bottom: 30px;
+}
+
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+} */
+
+
+
+.Special-Container {
+    height: auto;
+    width: 100vw;
+    background-color: rgba(25, 48, 40, 1);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.special-heading {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-family: Montaga;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.special-heading h1 {
+    color: #FFF;
+    font-family: Garamond;
+    font-size: 3.5vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headDesign {
+    display: block;
+    margin: 0.3rem auto 2rem auto;
+    width: 180px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.navItem {
+  display: flex;
+  cursor: pointer;
+   position: relative;
+    transition: all 0.3s ease;
+color: #FFF;
+font-family: Montaga;
+font-size: 2.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.navItem:hover {
+    color: gold;
+}
+
+.active {
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0 50px;
+}
+
+.leftImage {
+    width: 30%;
+}
+
+.leftImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.imageSection {
+    width: 60%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageScroller {
+    display: flex;
+    flex-direction: column;
+    animation: scrollUp 20s linear infinite;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 30px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageContainer {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.dishImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.dishInfo {
+    flex: 1;
+}
+
+.dishInfo h3 {
+    margin-bottom: 10px;
+    color: var(--Secondary-color, #CE9F0B);
+font-family: Montaga;
+font-size: 3.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.dishInfo p {
+ color: #FFF;
+font-family: Montaga;
+font-size: 2.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    
+    .leftImage, .imageSection {
+        width: 100%;
+    }
+    
+    .navbar {
+        gap: 20px;
+    }
+    
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+}

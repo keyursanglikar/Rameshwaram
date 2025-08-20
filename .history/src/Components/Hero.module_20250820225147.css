@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.hero-container {
+  width: 100%;
+  
+height: 90%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-slider {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.hero-slide {
+  min-width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+  width:100vw;
+  height: 100vh;
+ align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.text-top {
+ color: #FCC310;
+
+text-align: center;
+/* Sub heading reg */
+font-family: Montaga;
+font-size: 1.2vw;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 5vh;
+line-height: normal;
+}
+
+.text-cont{
+width: 60vw;
+}
+.middle-image-container {
+  margin: 1.5rem 0;
+}
+
+.middle-image {
+  max-height: 100px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.text-bottom {
+color: #FFF;
+
+text-align: center;
+text-shadow: 0 4px 8px rgba(255, 255, 255, 0.25);
+/* Logo Text */
+font-family: Italiana;
+font-size: 3.8vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.cta-button {
+
+  color: #FFF;
+
+text-align: center;
+/* Subheading */
+font-family: Montaga;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* Animation for text elements */
+.text-top, .middle-image-container, .text-bottom {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */

@@ -1,0 +1,185 @@
+.section-voices {
+  text-align: center;
+  background: #fff;
+
+}
+
+.subtitle{
+color: var(--Grey, #7F7F7F);
+text-align: center;
+font-family: Montaga;
+font-size: 2.0vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1vh;
+}
+
+.title {
+margin-bottom: 40px;
+color: var(--Primary-color, #193028);
+font-family: Garamond;
+font-size: 3.0vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0.5vh;
+margin-bottom: 1vh; 
+}
+
+.decor{
+width:12vw;
+}
+
+.description {
+color: #000;
+text-align: center;
+font-family: Montaga;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 3vh;
+}
+
+/* Middle layout */
+.container {
+display: flex;
+width: 1500px;
+justify-content: center;
+align-items: center;
+gap: 2vh;
+margin: 0 auto;
+}
+
+/* Left Card */
+.leftCard {
+  flex: 1;
+  background: #193028;
+  color: #fff;
+  padding: 3vh 2vw;
+text-align: center;
+ position: relative;
+ width: 40vw;
+height: 30vh;
+padding: 101px 120px 83px 120px;
+justify-content: center;
+align-items: center; 
+min-height: 300px;
+ text-align: center;
+}
+
+.leftCard h3 {
+margin-bottom: 1vh;
+color: var(--Secondary-color, #CE9F0B);
+text-align: center;
+font-family: Montaga;
+font-size:3.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.leftCard p{
+color: #FFF;
+text-align: center;
+font-family: Montaga;
+font-size: 3.0vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/* Center Chef */
+.centerImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.centerImage img {
+object-fit: contain;
+position: relative;  
+ width: 30vw;
+height: 50vh;
+justify-content: center;
+align-items: center; 
+}
+
+/* Right Card */
+.rightCard {
+  flex: 1;
+  background: #193028;
+  color: #fff;
+  padding: 3vh 2vw;
+ position: relative;
+ width: 10vw;
+height: 30vh;
+padding: 101px 120px 83px 20px;
+justify-content: center;
+align-items: center; 
+min-height: 300px;
+text-align: center;
+}
+
+.quote {
+margin-top: 0vh;
+margin-bottom: 3vh;
+color: #FFF;
+text-align: center;
+font-family: Montaga;
+font-size: 3.0vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.userInfo {
+align-items: center;
+color: #FFF;
+font-family: Montaga;
+font-size: 3.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.userImg {
+  border-radius: 100%;
+  object-fit: cover;
+width: 100px;
+height: 100px;
+}
+
+.stars {
+  color: #ce9f0b;
+
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 2.5vh;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Arrows */
+.arrows {
+  bottom: 1vh;
+  right: 2vw;
+  gap: 1vw;
+display: flex;
+ justify-content: space-between;
+align-items: center;
+align-self: stretch; 
+}
+
+.arrow {
+  font-size: 2.0rem;
+  cursor: pointer;
+  transition: 0.3s;
+   color: #ce9f0b;
+}
+
+

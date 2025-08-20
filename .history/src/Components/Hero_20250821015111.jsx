@@ -96,7 +96,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import hero from './Hero.module.css';
+import Hero from './hero.module.css';
 import slider1 from './Images/3.jpg';
 import slider2 from './Images/2.jpg';
 import slider3 from './Images/1.jpg';

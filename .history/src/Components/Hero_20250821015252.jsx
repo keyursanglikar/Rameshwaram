@@ -103,14 +103,7 @@ import slider3 from './Images/1.jpg';
 import middleImage from './images/middle.jpeg'; // Your middle image
 
 const Hero = () => {
-  const slides = [
-    {
-      bgImage: slider1,
-      topText: "Bringing the rich taste of North & South India together on a single, flavorful plate.",
-      middleImage: middleImage, // Image between texts
-      bottomText: "Welcome To Rameshwaram Veg",
-      cta: "From rich North Indian gravies to soulful South Indian delicacies, experience the best of both worlds on one plate."
-    },
+  
     {
       bgImage: slider2,
       // topText: "Traditional South Indian Taste",

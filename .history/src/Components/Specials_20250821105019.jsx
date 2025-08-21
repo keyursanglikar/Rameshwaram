@@ -667,7 +667,7 @@ import gulabImage from './images/Dessert 3.jpg';
 import chocolateImage from './images/Dessert 4.jpg';
 
 import subImage1 from './images/Sub Menu1.jpg';
-import subImage2 from './images/Brunch 1.jpg';
+import subImage2 from './images/b';
 import subImage3 from './images/Lunch meal 2.jpg';
 import subImage4 from './images/eavening Snacks 4.jpg';
 import subImage5 from './images/Slider 3.jpg';

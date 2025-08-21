@@ -20,7 +20,12 @@ flex-shrink: 0;
 aspect-ratio: 155/107;
 }
 
-
+/* .brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+} */
 
 .brand span {
   display: block;
@@ -58,7 +63,7 @@ font-family: Montaga;
 font-size: 1.0vw;
 font-style: normal;
 font-weight: 400;
-line-height: 34px; 
+line-height: 34px; /* 184.375% */
 }
 
 .columnTitle {
@@ -111,109 +116,6 @@ line-height: normal;
 } */
 
 
-
-.footer {
-  color: #fff;
-  text-align: center;
-  padding: 40px 20px 20px;
-background: var(--Primary-color, #193028);
-height: 60vh;
-align-self: stretch;
-margin-top: -54px;
-}
-
-.logoSection {
-  margin-bottom: 5px;
-}
-
-.logo {
-width: 15vw;
-height: 21vh;
-flex-shrink: 0;
-aspect-ratio: 155/107;
-}
-
-.footerContent {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 40px;
-  margin: 10px auto 0 auto;
-  max-width: 1000px;
-}
-
-.column {
-flex: 1;
-padding: 0 20px;
-color: #FFF;
-text-align: center;
-font-family: Montaga;
-font-size: 1.3vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-}
-
-.column1 p{
-color: #FFF;
-text-align: center;
-font-family: Montaga;
-font-size: 1.2vw;
-font-style: normal;
-font-weight: 400;
-line-height: 34px; /* 184.375% */
-}
-
-.columnTitle {
-  margin-bottom: 0px;
-color: var(--Secondary-color, #CE9F0B);
-text-align: center;
-font-family: Montaga;
-font-size:2.3vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.divider {
-  width: 1px;
-  background: #CE9F0B;
-}
-
-.social {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-color: #FFF;
-text-align: center;
-font-family: Montaga;
-font-size: 1.5vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.icon {
-  color: #fff;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-.copy {
-  margin-top: 20px;
-  border-top: 1.5px solid rgba(206, 159, 11, 1);
-  padding-top: 15px;
-  color: var(--Grey, #7F7F7F);
-font-family: Montaga;
-font-size: 1.0vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
 
 /* 📱 Responsive: 321px – 500px */
 @media (min-width: 321px) and (max-width: 500px) {

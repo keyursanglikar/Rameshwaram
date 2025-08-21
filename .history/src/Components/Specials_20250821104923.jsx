@@ -646,7 +646,7 @@
 
 import React, { useState, useEffect } from 'react';
 import specials from './Specials.module.css';
-import headDesign from './images/Heading Design.png';
+import headDesign from '.images/Heading Design.png';
 import pohaImage from './images/Sub Menu 3.webp';
 import upmaImage from './images/Sub Menu 4.jpg';
 import masaladosaImage from './images/Masala Dosa.png';
